@@ -38,6 +38,7 @@ h2, h3 {
 		}
 		
 		li a {
+			display: block;
 			font-family: 'Amatic SC', cursive;
 			background-color: inherit;
 			color: white !important;
@@ -45,6 +46,7 @@ h2, h3 {
 			text-decoration: none;
 			line-height: 40px;
 			margin: 0 auto;
+			text-align: center;
 		}
 		
 		li a:hover {
@@ -59,7 +61,7 @@ a:visited {
 }
 
 main#history {
-	width: 75%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -93,6 +95,10 @@ img {
 	float: left;
 }
 
+.amatic, .amatic * {
+	font-family: 'Amatic SC', cursive;
+}
+
 /* BLOCKQUOTES */
 
 		blockquote {
@@ -114,7 +120,6 @@ img {
 		}
 		
 		blockquote footer{
-			background-color: none;
 			text-align: left;
 			left: 1em;
 		}
@@ -176,15 +181,25 @@ img {
 
 /* END OF REPORT A YETI FORM */
 
+aside {
+	font-size: 1.2em;
+}
+
 hr {
-	border-color: midnightblue; //Chrome+Safari
-	background-color: midnightblue; //Firefox+Opera
-	color: midnightblue; //IE 7+
+	border-color: midnightblue; /*Chrome+Safari*/
+	background-color: midnightblue; /*Firefox+Opera*/
+	color: midnightblue; /*IE 7*/
 }
 
 footer {
 	text-align: center;
-	margin: inherit auto;
+	margin: 1em auto;
+}
+
+button {
+	background-color: midnightblue !important;
+	color: azure;
+	border: 2px double azure;
 }
 
 @media screen and (max-width: 700px) {
@@ -193,10 +208,13 @@ footer {
 	}
 }
 
-@media screen and (max-width: 350px) {
-	nav {
-		font-size: 0.9em;
-		line-height: 1.8em;	
+@media screen and (max-width: 390px) {
+	nav ul{
+		flex-direction: column;
+		align-items: center;
+	}
+	main {
+		margin-top: 200px;
 	}
 }
 
@@ -213,7 +231,6 @@ footer {
 
 CHECKLIST:;
 
-A background image on at least one element
 A few elements styled using a class
 *** Kinda Done **** A different color for visited links
 An element styled with an ID
