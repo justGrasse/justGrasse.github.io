@@ -114,6 +114,7 @@ img {
 		}
 		
 		blockquote * {
+			font-size: 1.2em;
 			padding-left: 10px;
 			background-color: inherit;
 			margin: 0 auto;
@@ -220,22 +221,9 @@ button {
 
 
 /*  OPPORTUNITIES TO FIX:
-			- Prevent links in the navigation 
-					from spilling over on :hover
 			- In figure remove whitespace with
 					line break after </img>
 			- Visting different links, multiple 
 					turning colors? 
 			- 
-
-
-CHECKLIST:;
-
-A few elements styled using a class
-*** Kinda Done **** A different color for visited links
-An element styled with an ID
-Release 2: Make it Responsive
-DO THE THING
-Add at least one media query to improve the responsiveness of your page.
-
 */
