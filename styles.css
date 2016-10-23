@@ -12,47 +12,47 @@ h2, h3 {
 	text-decoration: underline;
 }
 
-/* TOP NAVIGATION BAR */
+/* TOP NAVIGATION BAR */ bl
 
-		nav {
-			display: block;
-			position: fixed;
-			width: 100%;
-			top: 0;
-			left: 0;
-			right: 0;
-		}
-		
-		nav ul {
-			background-color: midnightblue;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-			list-style-type: none;
-		}
-		
-		nav ul li {
-			background-color: inherit;
-			width: 100px;
-			height: 40px;
-		}
-		
-		li a {
-			display: block;
-			font-family: 'Amatic SC', cursive;
-			background-color: inherit;
-			color: white !important;
-			font-size: 1.5em;
-			text-decoration: none;
-			line-height: 40px;
-			margin: 0 auto;
-			text-align: center;
-		}
-		
-		li a:hover {
-			color: lightgray;
-			font-size: 1.8em;
-		}
+nav {
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav ul {
+	background-color: midnightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+nav ul li {
+	background-color: inherit;
+	width: 100px;
+	height: 40px;
+}
+
+li a {
+	display: block;
+	font-family: 'Amatic SC', cursive;
+	background-color: inherit;
+	color: white !important;
+	font-size: 1.5em;
+	text-decoration: none;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+li a:hover {
+	color: lightgray;
+	font-size: 1.8em;
+}
 		
 /* END OF TOP NAVIGATION BAR */
 
@@ -101,84 +101,85 @@ img {
 
 /* BLOCKQUOTES */
 
-		blockquote {
-			width: 75%;
-			max-width: 650px;
-			padding: 0.3em;
-			background: midnightblue;
-			color: white;
-			border-top-right-radius: 1em;
-			border-bottom-right-radius: 1em;
-			border-left: 10px solid gray;
-			margin: 1em auto;
-		}
-		
-		blockquote * {
-			font-size: 1.2em;
-			padding-left: 10px;
-			background-color: inherit;
-			margin: 0 auto;
-		}
-		
-		blockquote footer{
-			text-align: left;
-			left: 1em;
-		}
+blockquote {
+	width: 75%;
+	max-width: 650px;
+	padding: 0.3em;
+	background: midnightblue;
+	color: white;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-left: 10px solid gray;
+	margin: 1em auto;
+}
+
+blockquote * {
+	font-size: 1.2em;
+	padding-left: 10px;
+	background-color: inherit;
+	margin: 0 auto;
+}
+
+blockquote footer{
+	text-align: left;
+	left: 1em;
+}
 
 /* END OF BLOCKQUOTES */
 
 /* POP CULTURE TABLE */
 
-		table {
-			width: 80%;
-			margin: 2em auto;
-		}
-		
-		th {
-			font-weight: bold;
-			text-decoration: underline;
-		}
-		
-		th, td {
-			text-align: center;
-			width: 20%;
-			background-color: lavender;
-		}
-		
-		th:hover,td:hover {
-			background-color: midnightblue;
-			color: white;
-		}
-		
-		td a, th a {
-			background-color: inherit;
-			color: inherit;
-			text-decoration: none;
-		}
+table {
+	width: 80%;
+	margin: 2em auto;
+}
+
+th {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+th, td {
+	text-align: center;
+	width: 20%;
+	background-color: lavender;
+}
+
+th:hover,td:hover {
+	background-color: midnightblue;
+	color: white;
+}
+
+td a, th a {
+	background-color: inherit;
+	color: inherit;
+	text-decoration: none;
+}
 
 /* END OF TABLE */
 
 /* REPORT A YETI FORM */
-		#report_yeti {
-			background-image: url("images/Cascade_Mountains.jpg");
-			background-repeat: no-repeat;
-			border: 3px solid midnightblue;
-			border-radius: 20px; 
-		}
-		
-		#report_yeti * {
-			background-color: transparent;
-		}
-		
-		form {
-			margin: 10px;
-		}
-		
-		input, textarea {
-			margin-bottom: 10px;
-			background-color: white !important;
-			opacity: 0.9 !important;
-		}
+
+#report_yeti {
+	background-image: url("images/Cascade_Mountains.jpg");
+	background-repeat: no-repeat;
+	border: 3px solid midnightblue;
+	border-radius: 20px; 
+}
+
+#report_yeti * {
+	background-color: transparent;
+}
+
+form {
+	margin: 10px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	background-color: white !important;
+	opacity: 0.9 !important;
+}
 
 /* END OF REPORT A YETI FORM */
 
