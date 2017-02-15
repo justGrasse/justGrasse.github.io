@@ -1,58 +1,90 @@
-<!DOCTYPE html>
+<!-- GOOGLE FONTS IMPORT-->
+<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <html>
-<head>
-	<title>The Yeti Gazetti</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Hind" rel="stylesheet">
-
-</head>
 <body>
+<div class="container-fluid">
 
-<nav><ul>
-	<li><a href="index.html">yeti gazetti</a></li>
-	<li><a href="history.html">history</a></li>
-	<li><a href="pop_culture.html">pop culture</a></li>
-	<li><a href="search.html">the search</a></li>
-</ul></nav>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hello World.</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#getBio">.getBio</a></li>
+      <li><a href="#viewProjects">.viewProjects</a></li>
+      <li><a href="#contactMe">.contactMe</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class = jumbotron id="green_jumbo">
+  <h1 class="text-center">(<b> justin_grassé </b>).getPortfolio</h1>
+</div>
 
-<main>
 
-	<h1>The Yeti Gazetti</h1>
 
-	<figure class="left">
-		<a href="https://upload.wikimedia.org/wikipedia/commons/1/16/Yeti_by_Philippe_Semeria.jpg" target="_blank"><img src="images/Yeti_by_Philippe_Semeria.jpg" 
-					alt="Yeti_by_Philippe_Semeria.jpg"
-					title="A Wild Yeti"></a>
-		<br>
-		<figcaption>Yeti illustration by <a href ="https://commons.wikimedia.org/wiki/User:Phisem#Permission" target="_blank"><b>Philippe Semeria</b></a></figcaption>
-	</figure>
-
-	<p>RawwwRRR!!! Although everyone knows of the legendary Snowperson, the Yeti, very few know of the richness of the lore that surrounds him [or her, I mean it's the 21st Century after all].  This lore has long been frozen in time, but as Western culture begins to adopt the beauty and horrors of this cryptic creature on the big screen and in written word, the ice thaws.  It's time to take a good look at who the Yeti truly is and embrace its story justly.  And there is no better place to start than... <b>The Yeti Gazetti!</b></p>
-
-</main>
-
-<section class="amatic">
-	<hr>
-	<h2>Additional Yeti Resources</h2>
-
-	<div>
-		<section>
-			<a href="http://www.livescience.com/25072-yeti-abominable-snowman.html" target="_blank">
-			LIFESCIENCE - <cite>The Yeti: Asia's Abominable Snowman</cite>
-			</a>
-			<p>Blip Blop A-Tooey Pa-Dooey. Yeti Schmeti, Steady Freddy!</p>
-		</section>
-		<section>
-			<a href="http://www.livescience.com/25072-yeti-abominable-snowman.html" target="_blank">
-			The Unmuseum - <cite>Yeti: Abominable Snowman of the Himalaya</cite>
-			</a>
-			<p>Blip Blop A-Tooey Pa-Dooey. Yeti Schmeti, Steady Freddy!</p>
-			<br>
-			<aside>MINOR WEB-TANGENT: This site does a great job of sectioning three columns to separate the internal links, the body, and the external links.  However, the site lacks a good amount of detail and semantics. For example, the images are included without many attributes to describe the image or to display text if the image fails to load. Semantically, it would benefit the developer to enclose the image with a &lt;figure&gt; tag and include captions using &lt;figcaption&gt; tags.</aside>
-		</section>
+  <!-- .getBio (ABOUT ME) -->
+<div class="jumbotron" id="getBio">
+	<h1 class="text-center">.getBio<br><br></h1>
+	<div class="row">
+		<div class="col-md-5 col-md-offset-1">
+		  <h2><b>justin grassé</b> is an engineer turned programmer seeking to reinvent his world and the world of others.<br><br>he is currently living in <b>Seattle</b>.</h2>
+		</div>
+		<div class="col-md-3 col-md-offset-1">
+		  <a href="#"><img class="img-responsive green-border" src="http://i1376.photobucket.com/albums/ah11/Justin_Grasse/profile_pic_zpsjqn4yky4.jpg?t=1461460169"></a>
+		</div>
 	</div>
-</section>
+</div>
 
-<script src="client_side.js"></script>
+
+
+  <!-- .viewProjects (PROJECTS) -->
+<div class="jumbotron" style=" background-color: #9CFA7D" id="viewProjects">
+	<h1 class="text-center">.viewProjects<br><br></h1>
+
+	<!--SNAPSHOTS OF PROJECTS-->
+	<div class="row">
+	  <div class="col-md-6">
+	    <a href="http://codepen.io/justGrass/full/EKQRmw/" target="_blank"><img class="thumbnail img-responsive" src="http://i1376.photobucket.com/albums/ah11/Justin_Grasse/Screenshot%202_zpsjp5golny.png?t=1461460170"></a>
+	  </div>
+	  <div class="col-md-6">
+	    <a href="http://codepen.io/justGrass/full/NNyNQd/" target="_blank"><img class="thumbnail img-responsive" src="http://i1376.photobucket.com/albums/ah11/Justin_Grasse/Screenshot%205_zpstrbaoua5.png?t=1461460170"><p></p></a>
+	  </div>
+	  <div class="row">
+		  <div class="col-md-6">
+		    <a href="#" target="_blank"><img class="thumbnail img-responsive" src="http://i1376.photobucket.com/albums/ah11/Justin_Grasse/Screenshot%203_zpsdz2n5twe.png?t=1461460170"></a>
+		  </div>
+		  <div class="col-md-6">
+		    <a href="#" target="_blank"><img class="thumbnail img-responsive" src="http://i1376.photobucket.com/albums/ah11/Justin_Grasse/Screenshot%204_zpsufedyw2a.png?t=1461460170"></a>
+		  </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+  <!-- .contactMe (CONTACT) -->
+<div class="jumbotron" id="contactMe">
+  <h1 class="text-center">.contactMe<br><br></h1>
+  <div class="row">
+    <div class="col-xs-2 col-xs-offset-2"><a target="_blank" href="https://www.facebook.com/jgrasse2"><img class="img-responsive" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"></a>
+    </div>
+    <div class="col-xs-2 col-xs-offset-1"><a href="https://www.linkedin.com/in/justin-grasse-a2a46531" target="_blank"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png"></a>
+    </div>
+    <div class="col-xs-2 col-xs-offset-1"><a href="https://twitter.com/just_grass" target="_blank"><img class="img-responsive" src=https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/twitter_letter-512.png></a>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center">
+  <hr>
+  <p style="color:white">This is a justGrass project by <a href="http://codepen.io/justGrass/full/EKQRmw/" target="_blank">Justin Grassé</a>.</p>
+</footer>
+
+</div>
 </body>
 </html>
