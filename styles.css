@@ -30,3 +30,8 @@ body{
   border-style: solid;
   border-radius: 5%;
 }
+
+#viewProjects img {
+	width: 25vw;
+	height: 15vw;
+}
