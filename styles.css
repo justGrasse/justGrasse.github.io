@@ -1,0 +1,32 @@
+/*!
+ * My Portfolio v0.0.1 (http://codepen.io/justGrass/pen/EKQRmw)
+ * Justin Grasse - April 2016
+ */
+
+body{
+  font-family: 'News Cycle', sans-serif;
+  background: #504A4B;
+}
+
+.jumbotron{
+  background-color: #D97CF9;
+}
+
+#green_jumbo{
+  background-color: #9CFA7D;
+}
+
+.green-border {
+    border-color: #9CFA7D;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 25%;
+}
+
+.thumbnail{
+  width: 95%;
+  border-color: #D97CF9;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5%;
+}
