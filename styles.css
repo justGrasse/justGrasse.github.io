@@ -8,6 +8,10 @@ body{
   background-color: #504A4B;
 }
 
+main {
+	margin-top: 75px;
+}
+
 .jumbotron{
   background-color: #D97CF9;
 }
